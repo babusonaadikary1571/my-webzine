@@ -94,13 +94,14 @@ img{
 .hero button{
   padding:14px 28px;
   border:none;
-  background:#00d9ff;
-  color:black;
+  background:red;
+  color:white;
   font-size:17px;
   font-weight:700;
   border-radius:10px;
   cursor:pointer;
-  transition:0.3s;
+
+  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 .hero button:hover{
