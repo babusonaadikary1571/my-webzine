@@ -7,7 +7,7 @@
 body{
   background:#0b0b0b;
   color:white;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
+  font-family:'Hind Siliguri', sans-serif;
   line-height:1.7;
 }
 
@@ -34,7 +34,7 @@ img{
   font-size:40px;
   font-weight:700;
   color:red;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
+  font-family:'Hind Siliguri', sans-serif;
 }
 
 .nav-links{
@@ -47,7 +47,7 @@ img{
   text-decoration:none;
   color:white;
   transition:0.3s;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
+  font-family:'Hind Siliguri', sans-serif;
 }
 
 .nav-links a:hover{
@@ -79,24 +79,23 @@ img{
   color:red;
   margin-bottom:18px;
   font-size:18px;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 .hero h1{
   font-size:60px;
   line-height:1.2;
   margin-bottom:24px;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 .hero-text{
   font-size:20px;
   color:#cccccc;
   margin-bottom:32px;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
-.hero button{
+/* BUTTON FONT ONLY KALPURUSH */
+
+.kalpurush-btn{
   padding:14px 28px;
   border:none;
   background:red;
@@ -106,7 +105,7 @@ img{
   border-radius:10px;
   cursor:pointer;
 
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
+  font-family:Kalpurush, sans-serif;
 }
 
 
@@ -119,7 +118,6 @@ img{
 .section-title h2{
   font-size:42px;
   margin-bottom:50px;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 .article-grid{
@@ -147,19 +145,16 @@ img{
 .category{
   color:red;
   font-size:15px;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 .card h3{
   margin:14px 0;
   font-size:26px;
   line-height:1.4;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 .card p{
   color:#bbbbbb;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 
@@ -175,7 +170,6 @@ img{
   font-size:40px;
   line-height:1.6;
   color:#dddddd;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 
@@ -186,7 +180,6 @@ footer{
   padding:40px;
   background:black;
   color:white;
-  font-family:Kalpurush, 'Hind Siliguri', sans-serif;
 }
 
 
