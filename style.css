@@ -5,7 +5,7 @@
 }
 
 body{
-  background:#0b0b0b;
+  background:red;
   color:white;
   font-family:'Hind Siliguri', sans-serif;
   line-height:1.7;
@@ -24,7 +24,7 @@ img{
   align-items:center;
   padding:24px 8%;
   border-bottom:1px solid rgba(255,255,255,0.08);
-  background:#0b0b0b;
+  background:red;
   position:sticky;
   top:0;
   z-index:100;
@@ -51,7 +51,7 @@ img{
 }
 
 .nav-links a:hover{
-  color:red;
+  color:yellow;
 }
 
 
@@ -76,7 +76,7 @@ img{
 }
 
 .hero-tag{
-  color:red;
+  color:yellow;
   margin-bottom:18px;
   font-size:18px;
 }
@@ -100,7 +100,7 @@ img{
   border:none;
   background:red;
   color:white;
-  font-size:17px;
+  font-size:25px;
   font-weight:700;
   border-radius:10px;
   cursor:pointer;
@@ -113,6 +113,7 @@ img{
 
 .featured-section{
   padding:100px 8%;
+  background:red;
 }
 
 .section-title h2{
