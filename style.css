@@ -24,7 +24,7 @@ img{
   align-items:center;
   padding:24px 8%;
   border-bottom:1px solid rgba(255,255,255,0.08);
-  background:red;
+  background:#0b0b0b;
   position:sticky;
   top:0;
   z-index:100;
