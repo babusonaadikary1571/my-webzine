@@ -5,7 +5,7 @@
 }
 
 body{
-  background:#0b0b0b;
+  background:red;
   color:white;
   font-family:'Hind Siliguri', sans-serif;
   line-height:1.7;
@@ -31,10 +31,9 @@ img{
 }
 
 .logo{
-  font-size:40px;
+  font-size:30px;
   font-weight:700;
-  color:red;
-  font-family:'Hind Siliguri', sans-serif;
+  color:#00d9ff;
 }
 
 .nav-links{
@@ -47,11 +46,10 @@ img{
   text-decoration:none;
   color:white;
   transition:0.3s;
-  font-family:'Hind Siliguri', sans-serif;
 }
 
 .nav-links a:hover{
-  color:red;
+  color:#00d9ff;
 }
 
 
@@ -76,36 +74,37 @@ img{
 }
 
 .hero-tag{
-  color:red;
+  color:#00d9ff;
   margin-bottom:18px;
   font-size:18px;
-  font-family:'Hind Siliguri', sans-serif;
 }
 
 .hero h1{
   font-size:60px;
   line-height:1.2;
   margin-bottom:24px;
-  font-family:'Hind Siliguri', sans-serif;
 }
 
 .hero-text{
   font-size:20px;
   color:#cccccc;
   margin-bottom:32px;
-  font-family:'Hind Siliguri', sans-serif;
 }
 
 .hero button{
   padding:14px 28px;
   border:none;
-  background:red;
-  color:white;
+  background:#00d9ff;
+  color:black;
   font-size:17px;
   font-weight:700;
   border-radius:10px;
   cursor:pointer;
-  font-family:'Hind Siliguri', sans-serif;
+  transition:0.3s;
+}
+
+.hero button:hover{
+  transform:translateY(-2px);
 }
 
 
@@ -118,7 +117,6 @@ img{
 .section-title h2{
   font-size:42px;
   margin-bottom:50px;
-  font-family:'Hind Siliguri', sans-serif;
 }
 
 .article-grid{
@@ -131,7 +129,12 @@ img{
   background:#141414;
   border-radius:18px;
   overflow:hidden;
+  transition:0.3s;
   border:1px solid rgba(255,255,255,0.06);
+}
+
+.card:hover{
+  transform:translateY(-8px);
 }
 
 .card img{
@@ -144,21 +147,18 @@ img{
 }
 
 .category{
-  color:red;
+  color:#00d9ff;
   font-size:15px;
-  font-family:'Hind Siliguri', sans-serif;
 }
 
 .card h3{
   margin:14px 0;
   font-size:26px;
   line-height:1.4;
-  font-family:'Hind Siliguri', sans-serif;
 }
 
 .card p{
   color:#bbbbbb;
-  font-family:'Hind Siliguri', sans-serif;
 }
 
 
@@ -175,6 +175,8 @@ img{
   line-height:1.6;
   color:#dddddd;
   font-family:'Hind Siliguri', sans-serif;
+  font-weight:700;
+  letter-spacing:0.5px;
 }
 
 
@@ -183,9 +185,8 @@ img{
 footer{
   text-align:center;
   padding:40px;
-  background:black;
-  color:white;
-  font-family:'Hind Siliguri', sans-serif;
+  border-top:1px solid rgba(255,255,255,0.08);
+  color:#888;
 }
 
 
