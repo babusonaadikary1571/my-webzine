@@ -35,6 +35,21 @@ img{
   font-weight:700;
   color:#00d9ff;
 }
+.logo{
+  display:flex;
+  align-items:center;
+}
+
+.logo img{
+  width:170px;
+  height:auto;
+  object-fit:contain;
+  transition:0.3s;
+}
+
+.logo img:hover{
+  transform:scale(1.05);
+}
 
 .nav-links{
   display:flex;
