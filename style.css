@@ -39,7 +39,7 @@ img{
 }
 
 .logo img{
-  width:220px;
+  width:300px;
   height:auto;
   object-fit:contain;
   transition:0.3s;
