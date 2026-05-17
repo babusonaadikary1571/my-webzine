@@ -58,6 +58,7 @@ header {
   font-size: 16px;
   transition: color 0.3s ease;
   padding: 8px 0;
+  cursor: pointer;
 }
 
 .nav-links a:hover {
@@ -83,9 +84,11 @@ header {
   transform: translateY(-10px);
   transition: all 0.3s ease;
   margin-top: 8px;
+  z-index: 999;
 }
 
-.dropdown:hover .dropdown-menu {
+/* Show dropdown when active class is added */
+.dropdown-menu.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -103,6 +106,7 @@ header {
   font-weight: 400;
   font-size: 15px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .dropdown-menu li a:hover {
@@ -296,7 +300,7 @@ footer {
     margin-top: 0;
   }
 
-  .dropdown:hover .dropdown-menu {
+  .dropdown-menu.active {
     height: auto;
     opacity: 1;
     visibility: visible;
