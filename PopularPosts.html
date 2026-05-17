@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>বেদুইন | Bengali Webzine</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* পেজ জনপ্রিয়তা ব্যাজ */
+    .popularity-badge {
+      display: inline-block;
+      background: #ff6b35;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      margin-left: 8px;
+      font-weight: bold;
+    }
+
+    .view-count {
+      color: #00d9ff;
+      font-size: 14px;
+      margin-top: 8px;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <header>
+
+    <nav class="navbar">
+
+      <div class="logo">বেদুইন। বাংলার বেদুইন </div>
+<div class="logo">
+  <img src="https://i.ibb.co/3Y8QFjqq/logo-12.png" alt="logo">
+</div>
+      <ul class="nav-links">
+
+        <li class="nav-item dropdown">
+          <a href="#" class="dropdown-toggle">প্রচ্ছদ</a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="page-link" data-page="prochod-samprotik">সাম্প্রতিক</a></li>
+            <li><a href="#" class="page-link" data-page="prochod-jonoprio">জনপ্রিয়</a></li>
+            <li><a href="#" class="page-link" data-page="prochod-sangsikrit">সংরক্ষিত</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a href="#" class="dropdown-toggle">শব্দমালা</a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="page-link" data-page="shabdo-kobita">কবিতা</a></li>
+            <li><a href="#" class="page-link" data-page="shabdo-probandhо">প্রবন্ধ</a></li>
+            <li><a href="#" class="page-link" data-page="shabdo-goddo">গদ্য</a></li>
+            <li><a href="#" class="page-link" data-page="shabdo-aloчona">আলোচনা</a></li>
+            <li><a href="#" class="page-link" data-page="shabdo-sampaddkio">সম্পাদকীয়</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="dropdown-toggle">বিশ্ববীক্ষা</a>
+          <ul class="dropdown-menu">
+            <li><a href="polity.html" class="page-link" data-page="bishbo-dorshan">দর্শন</a></li>
+            <li><a href="#" class="page-link" data-page="bishbo-rajniti">রাজনীতি</a></li>
+            <li><a href="#" class="page-link" data-page="bishbo-monohstattho">মনঃস্তত্ব</a></li>
+            <li><a href="#" class="page-link" data-page="bishbo-samajнiti">সমাজনীতি</a></li>
+            <li><a href="#" class="page-link" data-page="bishbo-orthoniti">অর্থনীতি</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a href="#" class="dropdown-toggle">বস্তুবাদ</a>
+          <ul class="dropdown-menu">
+             <li><a href="#" class="page-link" data-page="bostu-marxio">মার্কসীয় দৃষ্টিকোণ</a></li>
+            <li><a href="#" class="page-link" data-page="bostu-quantum">কোয়ান্টাম পদার্থবিজ্ঞান</a></li>
+            <li><a href="#" class="page-link" data-page="bostu-jibo">জৈব রসায়ন</a></li>
+            <li><a href="#" class="page-link" data-page="bostu-bibidho">বিবিধ আলোচনা</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a href="#" class="dropdown-toggle">অতীত</a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="page-link" data-page="otit-marxio">মার্কসীয় দৃষ্টিকোণ</a></li>
+            <li><a href="#" class="page-link" data-page="otit-pouranic">পৌরাণিক</a></li>
+            <li><a href="#" class="page-link" data-page="otit-sahitto">সাহিত্যের ইতিহাস</a></li>
+            <li><a href="#" class="page-link" data-page="otit-madhyojug">মধ্যযুগ</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- HERO SECTION -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <p class="hero-tag">সমকাল • ইতিহাস • সমাজ</p>
+
+      <h1>
+        আধুনিক বাংলা চিন্তা ও বিশ্লেষণের
+        নতুন ডিজিটাল ম্যাগাজিন
+      </h1>
+
+      <p class="hero-text">
+        রাজনীতি, ইতিহাস, সংস্কৃতি, দর্শন ও প্রযুক্তি নিয়ে গভীর বাংলা বিশ্লেষণ।
+      </p>
+
+      <button class="kalpurush-btn">সাম্প্রতিক লেখা পড়ুন</button>
+
+    </div>
+
+  </section>
+
+
+  <!-- FEATURED ARTICLES -->
+
+  <section class="featured-section">
+
+    <div class="section-title">
+
+      <h2>জনপ্রিয় নিবন্ধ</h2>
+
+    </div>
+
+    <div class="article-grid" id="popular-articles">
+
+
+      <article class="card">
+
+        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1200&auto=format&fit=crop" alt="">
+
+        <div class="card-content">
+
+          <span class="category">রাজনীতি</span>
+
+          <h3>
+            আধুনিক রাষ্ট্রব্যবস্থায় নজরদারি ও গণতন্ত্রের সংকট
+          </h3>
+
+          <p>
+            ডিজিটাল যুগে রাষ্ট্র, প্রযুক্তি ও নাগরিক স্বাধীনতার নতুন সম্পর্ক নিয়ে [...]
+          </p>
+
+        </div>
+
+      </article>
+
+
+
+      <article class="card">
+
+        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop" alt="">
+
+        <div class="card-content">
+
+          <span class="category">ইতিহাস</span>
+
+          <h3>
+            উপনিবেশবাদ কীভাবে বদলে দিয়েছিল বাংলার সমাজ
+          </h3>
+
+          <p>
+            অর্থনীতি, শিক্ষা ও সংস্কৃতির উপর ঔপনিবেশিক প্রভাবের দীর্ঘমেয়াদি বিশ্লেষণ [...]
+          </p>
+
+        </div>
+
+      </article>
+
+
+
+      <article class="card">
+
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="">
+
+        <div class="card-content">
+
+          <span class="category">প্রযুক্তি</span>
+
+          <h3>
+            Artificial Intelligence কি মানুষের চিন্তাকে প্রতিস্থাপন করবে?
+          </h3>
+
+          <p>
+            AI, সৃজনশীলতা ও মানবিক ভবিষ্যৎ নিয়ে একটি সমালোচনামূলক আলোচনা।
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- QUOTE SECTION -->
+
+  <section class="quote-section">
+
+    <blockquote>
+      চিন্তার স্বাধীনতাই সভ্যতার সবচেয়ে বড় শক্তি
+    </blockquote>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>© 2015 বেদুইন • Bengali Webzine</p>
+
+  </footer>
+
+  <script>
+    // ========== পেজ ট্র্যাকিং সিস্টেম ==========
+    
+    // পেজ ডেটা ডেটাবেস
+    const pagesData = {
+      'prochod-samprotik': {
+        title: 'সাম্প্রতিক প্রচ্ছদ',
+        category: 'প্রচ্ছদ',
+        image: 'https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1200&auto=format&fit=crop',
+        description: 'সর্বশেষ এবং সবচেয়ে গুরুত্বপূর্ণ সংবাদ ও নিবন্ধ...'
+      },
+      'prochod-jonoprio': {
+        title: 'জনপ্রিয় প্রচ্ছদ',
+        category: 'প্রচ্ছদ',
+        image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1200&auto=format&fit=crop',
+        description: 'পাঠকদের মধ্যে সবচেয়ে বেশি জনপ্রিয় নিবন্ধ...'
+      },
+      'prochod-sangsikrit': {
+        title: 'সংরক্ষিত প্রচ্ছদ',
+        category: 'প্রচ্ছদ',
+        image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1200&auto=format&fit=crop',
+        description: 'আপনার পছন্দের নিবন্ধগুলি সংরক্ষণ করুন এবং পরে পড়ুন...'
+      },
+      'shabdo-kobita': {
+        title: 'বাংলা কবিতা',
+        category: 'শব্দমালা',
+        image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?q=80&w=1200&auto=format&fit=crop',
+        description: 'আধুনিক বাংলা কবিদের অনন্য সৃষ্টি এবং মননশীল কাজ...'
+      },
+      'shabdo-probandhо': {
+        title: 'গবেষণা প্রবন্ধ',
+        category: 'শব্দমালা',
+        image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?q=80&w=1200&auto=format&fit=crop',
+        description: 'বিদ্বান লেখকদের দ্বারা রচিত গভীর বিশ্লেষণাত্মক প্রবন্ধ...'
+      },
+      'shabdo-goddo': {
+        title: 'সাহিত্যিক গদ্য',
+        category: 'শব্দমালা',
+        image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1200&auto=format&fit=crop',
+        description: 'সুন্দর এবং প্রভাবশালী গদ্য রচনাবলী...'
+      },
+      'shabdo-aloчona': {
+        title: 'সমালোচনামূলক আলোচনা',
+        category: 'শব্দমালা',
+        image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop',
+        description: 'সাহিত্য এবং সমাজ নিয়ে গভীর আলোচনা...'
+      },
+      'shabdo-sampaddkio': {
+        title: 'সম্পাদকীয় মন্তব্য',
+        category: 'শব্দমালা',
+        image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200&auto=format&fit=crop',
+        description: 'পত্রিকার প্রধান সম্পাদকের মূল্যবান মতামত এবং পর্যবেক্ষণ...'
+      },
+      'bishbo-dorshan': {
+        title: 'আধুনিক দর্শন',
+        category: 'বিশ্ববীক্ষা',
+        image: 'https://images.unsplash.com/photo-1496406146926-c627033eee38?q=80&w=1200&auto=format&fit=crop',
+        description: 'পাশ্চাত্য এবং প্রাচ্যের দর্শনের সমন্বয়...'
+      },
+      'bishbo-rajniti': {
+        title: 'রাজনৈতিক বিশ্লেষণ',
+        category: 'বিশ্ববীক্ষা',
+        image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1200&auto=format&fit=crop',
+        description: 'বর্তমান রাজনৈতিক পরিস্থিতির সমীক্ষা এবং পূর্বাভাস...'
+      },
+      'bishbo-monohstattho': {
+        title: 'মনোবিজ্ঞান এবং সমাজ',
+        category: 'বিশ্ববীক্ষা',
+        image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?q=80&w=1200&auto=format&fit=crop',
+        description: 'মানুষের আচরণ এবং সামাজিক মনোবিজ্ঞান...'
+      },
+      'bishbo-samajнiti': {
+        title: 'সমাজতাত্ত্বিক দৃষ্টিভঙ্গি',
+        category: 'বিশ্ববীক্ষা',
+        image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop',
+        description: 'সমাজের গঠন এবং পরিবর্তনের বৈজ্ঞানিক বিশ্লেষণ...'
+      },
+      'bishbo-orthoniti': {
+        title: 'অর্থনৈতিক তত্ত্ব',
+        category: 'বিশ্ববীক্ষা',
+        image: 'https://images.unsplash.com/photo-1518186285646-a24dc28db96d?q=80&w=1200&auto=format&fit=crop',
+        description: 'ক্যাপিটালিজম এবং সোশ্যালিজমের অর্থনৈতিক বিশ্লেষণ...'
+      },
+      'bostu-marxio': {
+        title: 'মার্কসবাদী দর্শন',
+        category: 'বস্তুবাদ',
+        image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?q=80&w=1200&auto=format&fit=crop',
+        description: 'কার্ল মার্কস এবং তার অনুসারীদের বস্তুবাদী দৃষ্টিভঙ্গি...'
+      },
+      'bostu-quantum': {
+        title: 'কোয়ান্টাম পদার্থবিজ্ঞান',
+        category: 'বস্তুবাদ',
+        image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop',
+        description: 'পদার্থের ক্ষুদ্রতম কণা এবং শক্তির রহস্যময় জগৎ...'
+      },
+      'bostu-jibo': {
+        title: 'জীবনের রসায়ন',
+        category: 'বস্তুবাদ',
+        image: 'https://images.unsplash.com/photo-1530587191325-3db8b08b4b3e?q=80&w=1200&auto=format&fit=crop',
+        description: 'জৈব প্রক্রিয়া এবং রাসায়নিক বিক্রিয়া...'
+      },
+      'bostu-bibidho': {
+        title: 'বৈচিত্র্যময় বিষয় আলোচনা',
+        category: 'বস্তুবাদ',
+        image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop',
+        description: 'বিভিন্ন বিজ্ঞান ও প্রযুক্তি বিষয়ক আলোচনা...'
+      },
+      'otit-marxio': {
+        title: 'মার্কসবাদী ইতিহাস',
+        category: 'অতীত',
+        image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?q=80&w=1200&auto=format&fit=crop',
+        description: 'মার্কসীয় দৃষ্টিকোণ থেকে ইতিহাসের পুনর্পাঠ...'
+      },
+      'otit-pouranic': {
+        title: 'পৌরাণিক ইতিহাস',
+        category: 'অতীত',
+        image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1200&auto=format&fit=crop',
+        description: 'প্রাচীন বাংলার সমৃদ্ধ সংস্কৃতি এবং সভ্যতা...'
+      },
+      'otit-sahitto': {
+        title: 'বাংলা সাহিত্যের ইতিহাস',
+        category: 'অতীত',
+        image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?q=80&w=1200&auto=format&fit=crop',
+        description: 'প্রাচীন কাল থেকে আধুনিক যুগ পর্যন্ত বাংলা সাহিত্যের বিবর্তন...'
+      },
+      'otit-madhyojug': {
+        title: 'মধ্যযুগীয় বাংলা',
+        category: 'অতীত',
+        image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?q=80&w=1200&auto=format&fit=crop',
+        description: 'মধ্যযুগে বাংলার রাজনীতি, সংস্কৃতি এবং সমাজ...'
+      }
+    };
+
+    // পেজ ট্র্যাক করা
+    function trackPageView(pageId) {
+      const pageStats = JSON.parse(localStorage.getItem('pageStats') || '{}');
+      
+      if (!pageStats[pageId]) {
+        pageStats[pageId] = {
+          views: 0,
+          lastViewed: null,
+          firstViewed: new Date().toISOString()
+        };
+      }
+      
+      pageStats[pageId].views++;
+      pageStats[pageId].lastViewed = new Date().toISOString();
+      
+      localStorage.setItem('pageStats', JSON.stringify(pageStats));
+      
+      // জনপ্রিয় নিবন্ধ আপডেট করুন
+      updatePopularArticles();
+    }
+
+    // জনপ্রিয় নিবন্ধ আপডেট করা
+    function updatePopularArticles() {
+      const pageStats = JSON.parse(localStorage.getItem('pageStats') || '{}');
+      
+      // সব পেজকে ভিউ কাউন্ট সহ সংগঠিত করুন
+      const sortedPages = Object.entries(pageStats)
+        .sort((a, b) => b[1].views - a[1].views)
+        .slice(0, 3)
+        .map(([pageId, stats]) => ({
+          pageId,
+          ...pagesData[pageId],
+          views: stats.views
+        }));
+
+      // যদি ৩টি জনপ্রিয় পেজ না থাকে তবে ডিফল্ট পেজ যোগ করুন
+      const defaultPages = [
+        { pageId: 'bishbo-rajniti', ...pagesData['bishbo-rajniti'], views: 0 },
+        { pageId: 'shabdo-kobita', ...pagesData['shabdo-kobita'], views: 0 },
+        { pageId: 'bostu-quantum', ...pagesData['bostu-quantum'], views: 0 }
+      ];
+
+      const displayPages = [
+        ...sortedPages,
+        ...defaultPages.filter(dp => !sortedPages.find(sp => sp.pageId === dp.pageId))
+      ].slice(0, 3);
+
+      // HTML রেন্ডার করুন
+      const container = document.getElementById('popular-articles');
+      container.innerHTML = displayPages.map(page => `
+        <article class="card">
+          <img src="${page.image}" alt="${page.title}">
+          <div class="card-content">
+            <span class="category">${page.category}</span>
+            ${page.views > 0 ? `<span class="popularity-badge">🔥 জনপ্রিয় (${page.views} বার দেখা হয়েছে)</span>` : ''}
+            <h3>${page.title}</h3>
+            <p>${page.description}</p>
+            ${page.views > 0 ? `<div class="view-count">📊 মোট ভিউ: ${page.views}</div>` : ''}
+          </div>
+        </article>
+      `).join('');
+    }
+
+    // ড্রপডাউন টগেল কার্যকারিতা
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        const parent = this.parentElement;
+        const menu = parent.querySelector('.dropdown-menu');
+        
+        // অন্যান্য ড্রপডাউন বন্ধ করুন
+        document.querySelectorAll('.dropdown-menu').forEach(m => {
+          if (m !== menu) {
+            m.classList.remove('active');
+          }
+        });
+        
+        // বর্তমান ড্রপডাউন টগল করুন
+        menu.classList.toggle('active');
+      });
+    });
+    
+    // বাইরে ক্লিক করলে ড্রপডাউন বন্ধ করুন
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.dropdown')) {
+        document.querySelectorAll('.dropdown-menu').forEach(m => {
+          m.classList.remove('active');
+        });
+      }
+    });
+
+    // পেজ লিংক ট্র্যাকিং
+    document.querySelectorAll('.page-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const pageId = this.getAttribute('data-page');
+        if (pageId) {
+          trackPageView(pageId);
+        }
+      });
+    });
+
+    // পেজ লোড হলে জনপ্রিয় নিবন্ধ আপডেট করুন
+    updatePopularArticles();
+
+    // প্রতি 5 সেকেন্ডে আপডেট করুন (যদি অন্য ট্যাবে ক্লিক হয়)
+    setInterval(updatePopularArticles, 5000);
+  </script>
+
+</body>
+
+</html>
